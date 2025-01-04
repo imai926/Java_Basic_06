@@ -10,8 +10,8 @@ import java.util.Collections;
 
 public class Index {
 	public static void main(String[] args) {
-		String filePath = "C:/Users/IMAJIN/Documents/Java_Basic/06/2_確認問題/02/Text.txt";
-		String reversefile = "C:/Users/IMAJIN/Documents/Java_Basic/06/2_確認問題/02/reverseText.txt";
+		String filePath = "src/java_basic_06_02/Text.txt";
+		String reversefile = "src/java_basic_06_02/reverseText.txt";
 		
 		try (BufferedReader br = new BufferedReader(new FileReader(filePath));
 			 BufferedWriter bw = new BufferedWriter(new FileWriter(reversefile)))	{
